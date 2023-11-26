@@ -8,12 +8,18 @@
 @import url("components/nav-bar.css");
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
+@import url("components/alert.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
+@import url("screens/find.css");
 
 body {
   color: #2f363e;
   font-family: "Poppins", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

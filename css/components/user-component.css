@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -22,6 +23,7 @@
 
 .user-component__description {
   margin-top: 8px;
+  margin-left: 20px;
   font-size: 17px;
   color: #9d9d9d;
 }
@@ -43,5 +45,13 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
