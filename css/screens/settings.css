@@ -7,11 +7,11 @@
   justify-content: space-between;
 }
 
-.settings__menu-column:last-child {
+.settings__menu__column:last-child {
   opacity: 0.6;
 }
 
 .settings__menu i {
-  margin-right: 15px;
   font-size: 22px;
+  width: 30px;
 }

@@ -1,7 +1,7 @@
 .alt-screen-header__column span {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
-body {
+#chatting-room {
   background-color: #9fb9c7;
 }
