@@ -1,0 +1,9 @@
+.menu-suggestions {
+    margin-top: 50px;
+    border-top: var(--border);
+    padding-top: 40px;
+}
+
+.menu-suggestions__title {
+    margin-bottom: 20px;
+}

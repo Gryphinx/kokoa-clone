@@ -9,11 +9,16 @@
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
 @import url("components/alert.css");
+@import url("components/icon-row.css");
+@import url("components/alt-screen-deader.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
+@import url("screens/menu.css");
+@import url("screens/settings.css");
+@import url("screens/chatting-room.css");
 
 body {
   color: #2f363e;
