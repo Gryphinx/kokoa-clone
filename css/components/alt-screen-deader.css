@@ -1,8 +1,12 @@
 .alt-screen-header {
+  top: 0;
+  position: fixed;
   margin-top: 15px;
   padding: var(--horizontal-space);
   display: flex;
   align-items: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .alt-screen-header__title {
@@ -14,10 +18,16 @@
   width: 33%;
 }
 
+.alt-screen-header__column:first-child {
+  margin-right: auto;
+}
+
 .alt-screen-header__column:nth-child(2) {
   text-align: center;
 }
 
 .alt-screen-header__column:last-child {
-  text-align: end;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
 }
